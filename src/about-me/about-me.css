@@ -1,0 +1,23 @@
+.about-me {
+  margin-top: 150px;
+}
+
+.about-me__title {
+  font-family: "Roboto";
+  color: black;
+  text-align: center;
+  font-size: 48px; 
+  font-weight: bold;
+}
+
+.about-me__info__text {
+  font-family: "Roboto";
+  color: #8A8888;
+  text-align: center;
+  font-size: 18px; 
+  font-weight: bold;
+  width: 670px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: justify;
+}

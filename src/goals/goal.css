@@ -1,0 +1,30 @@
+.goal {
+  width: 100vw;
+}
+
+.goal__circle {
+  background-color: white; 
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.goal__circle__img {
+  margin-top: 25px;
+}
+
+.goal__circle__title {
+  color: black;
+  text-align: center;
+  font-size: 18px; 
+  font-family: "Roboto";
+}
+
+.goal__text {
+  color: white;
+  text-align: center;
+  font-size: 12px; 
+  font-family: "Roboto";
+}
