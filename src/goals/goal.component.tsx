@@ -16,10 +16,12 @@ export default class GoalComponent extends React.Component<GoalComponentProps, a
     return (
       <div className='goal'>
         <div className='goal__circle'>
+          <div className='goal__circle__title'>
+            <p className='goal__circle__title__text'>
+              {this.props.title}
+            </p>
+          </div>
           <img className='goal__circle__img' src={this.props.img}/>
-          <p className='goal__circle__title'>
-            {this.props.title}
-          </p>
         </div>
         <p className='goal__text'>
           {this.props.description}
