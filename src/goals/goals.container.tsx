@@ -26,7 +26,7 @@ const goals: Goal[][] = [
     {
       img: goal_dev,
       description: 'Adquirir novos conhecimentos e aprimorar os já existentes em Desenvolvimento de Software.',
-      title: 'Desenvolvimento de Software' 
+      title: 'Software Dev.' 
     },
   ],
   [
