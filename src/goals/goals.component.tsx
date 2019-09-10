@@ -21,11 +21,13 @@ export default class GoalsComponent extends React.Component<GoalsComponentProps,
         {this.props.goals ? this.props.goals.map(goalRow => (
           <div className='goals__row'>
             {goalRow.map(goal => (
+              <div className='goals__column'>
               <GoalComponent
                 title={goal.title}
                 description={goal.description}
                 img={goal.img}
               />
+              </div>
             ))}
           </div>
         )) : null}

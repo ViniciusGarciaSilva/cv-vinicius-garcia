@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "vinicius-garcia-cv",
   "version": "0.1.0",
   "private": true,
@@ -21,23 +20,4 @@
     "@types/react-dom": "^16.9.0",
     "typescript": "^3.5.3"
   }
-=======
-  "name": "cv-vinicius-garcia",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/ViniciusGarciaSilva/cv-vinicius-garcia.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ViniciusGarciaSilva/cv-vinicius-garcia/issues"
-  },
-  "homepage": "https://github.com/ViniciusGarciaSilva/cv-vinicius-garcia#readme"
->>>>>>> f693d809a0c13e5a1279319cc99a32872ace0809
 }
