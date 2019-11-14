@@ -1,0 +1,44 @@
+.professional {
+  margin-top: 150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: white;
+}
+
+.professional__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.professional__column-left {
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+}
+
+.professional__column-center {
+  flex-direction: column;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.professional__column-right {
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: red;
+  display: flex;
+}
+
+.professional__column-center__line {
+  width: 2px;
+  height: 1220px;
+  background-color: black
+}
+
+.test {
+  flex: 1;
+  background-color: aqua;
+}

@@ -49,12 +49,12 @@ const goals: Goal[][] = [
     },
     {
       img: goal_react,
-      description: 'Adquirir novos conhecimentos em linguagem React JS.',
+      description: 'Adquirir novos conhecimentos em React JS.',
       title: 'React JS' 
     },
     {
       img: goal_node,
-      description: 'Adquirir novos conhecimentos em linguagem Node JS.',
+      description: 'Adquirir novos conhecimentos em Node JS.',
       title: 'Node JS' 
     },
     {

@@ -1,0 +1,45 @@
+.enterprise {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.enterprise__row {
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.enterprise__description {
+  background-color: #EFF5FF;
+  width: 400px;
+  height: 100px;
+  justify-content: flex-start;
+  text-align: start;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.enterprise__icon {
+  width: 100px;
+  height: 100px;
+}
+
+.enterprise__description__job {
+  font-family: "Roboto";
+  color: black;
+  font-size: 12px; 
+}
+
+.enterprise__description__job__title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.enterprise__description__name {
+  font-family: "Roboto";
+  color: black;
+  font-weight: bold;
+  font-size: 14px; 
+}
