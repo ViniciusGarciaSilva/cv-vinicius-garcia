@@ -1,6 +1,7 @@
 .enterprise-right {
   display: flex;
   flex-direction: column;
+  margin-bottom: -100px;
 }
 
 .enterprise-right__row {
@@ -14,7 +15,8 @@
   width: 400px;
   justify-content: flex-start;
   text-align: justify;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .enterprise-right__icon {
@@ -25,7 +27,7 @@
 .enterprise-right__description__job {
   font-family: "Roboto";
   color: black;
-  font-size: 12px; 
+  font-size: 14px; 
 }
 
 .enterprise-right__description__job__title {
@@ -37,5 +39,5 @@
   font-family: "Roboto";
   color: black;
   font-weight: bold;
-  font-size: 14px; 
+  font-size: 18px; 
 }

@@ -1,6 +1,8 @@
 export interface Enterprise {
   name: string;
   icon: any;
+  start: string;
+  end: string;
   job: Job[];
 }
 

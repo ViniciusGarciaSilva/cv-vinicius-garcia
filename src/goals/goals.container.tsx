@@ -32,12 +32,12 @@ const goals: Goal[][] = [
   [
     {
       img: goal_web,
-      description: 'Desenvolvimento de aplicações web, sobretudo em Front-End.',
+      description: 'Desenvolver aplicações web, sobretudo em Front-End.',
       title: 'Web' 
     },
     {
       img: goal_mobile,
-      description: 'Desenvolvimento de aplicações mobile, sobretudo em Front-End.',
+      description: 'Desenvolver aplicações mobile, sobretudo em Front-End.',
       title: 'Mobile' 
     }
   ],

@@ -1,7 +1,6 @@
 .goals {
-  margin-top: 150px;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 100px;
   background-color: #242E3E; 
 }
 
@@ -9,7 +8,7 @@
   font-family: "Roboto";
   color: White;
   text-align: center;
-  font-size: 48px; 
+  font-size: 36px; 
   font-weight: bold;
 }
 
@@ -22,6 +21,6 @@
 
 .goals__column {
   flex-direction: column;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

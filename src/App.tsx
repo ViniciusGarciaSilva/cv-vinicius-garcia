@@ -6,15 +6,23 @@ import GoalsContainer from './goals/goals.container';
 import ProfessionalContainer from './professional-experience/professional.container';
 
 class App extends React.Component {
+  constructor(props: any) {
+    super(props);
+  }
+
+  public handlerOnClickButton = (number: any) => {
+    window.scrollTo(0, number)
+    return
+  }
+
+  
   public render() {
     return (
       <div className="App">
-        <HeaderComponent/>
-        <div className='App__content'>
-          <AboutMeContainer/>
-          <GoalsContainer/>
-          <ProfessionalContainer/>
-        </div> 
+        <HeaderComponent onClickButton={this.handlerOnClickButton}/>
+        <AboutMeContainer />
+        <GoalsContainer />
+        <ProfessionalContainer/>
       </div>
     );
   }

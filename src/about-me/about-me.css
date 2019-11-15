@@ -1,12 +1,13 @@
 .about-me {
-  margin-top: 150px;
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 
 .about-me__title {
   font-family: "Roboto";
   color: black;
   text-align: center;
-  font-size: 48px; 
+  font-size: 36px; 
   font-weight: bold;
 }
 
@@ -14,9 +15,9 @@
   font-family: "Roboto";
   color: #8A8888;
   text-align: center;
-  font-size: 18px; 
+  font-size: 14px; 
   font-weight: bold;
-  width: 670px;
+  width: 500px;
   margin: 0 auto;
   margin-top: 50px;
   text-align: justify;

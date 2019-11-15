@@ -21,8 +21,10 @@ export default class ProfessionalContainer extends React.Component<any,any> {
 
 const enterprise: Enterprise[] = [
   {
-    name: 'Bradesco',
+    name: 'Bradesco / Scopus',
     icon: bradesco_logo,
+    start: 'Mar/2019',
+    end: 'Presente',
     job: [
       {
         title: 'Smart Home:',
@@ -33,6 +35,8 @@ const enterprise: Enterprise[] = [
   {
     name: 'Taqtile',
     icon: taqtile_logo,
+    start: 'Set/2018',
+    end: 'Dez/2019',
     job: [
       {
         title: 'Aplicativo oBoticário:',
@@ -51,6 +55,8 @@ const enterprise: Enterprise[] = [
   {
     name: 'Control Id',
     icon: controlid_logo,
+    start: 'Jan/2018',
+    end: 'Jul/2018',
     job: [
       {
         title: 'Print Id:',
@@ -65,6 +71,8 @@ const enterprise: Enterprise[] = [
   {
     name: 'Certsys Tecnologia da Informação',
     icon: certsys_logo,
+    start: 'Mai/2017',
+    end: 'Ago/2017',
     job: [
       {
         title: 'BPM (Business Process Management):',
@@ -79,6 +87,8 @@ const enterprise: Enterprise[] = [
   {
     name: 'MGC Representações',
     icon: mgc_logo,
+    start: '2014',
+    end: '2016',
     job: [
       {
         title: 'Painel Ilustrativo:',
