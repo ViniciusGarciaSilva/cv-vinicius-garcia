@@ -3,6 +3,7 @@ import './header-button.css';
 
 interface HeaderButtonComponentProps {
   text: string;
+  onClickButton: (number:any) => void;
 }
 
 class HeaderButtonComponent extends React.Component<HeaderButtonComponentProps,any> {
@@ -12,11 +13,11 @@ class HeaderButtonComponent extends React.Component<HeaderButtonComponentProps,a
   
   public render() {
     return (
-      <div className='header-button'>
-        <p>
+      <button className='header-button' >
+        <p className='header-button__text'>
           {this.props.text}
         </p>
-      </div>
+      </button>
     )
   }
 } 

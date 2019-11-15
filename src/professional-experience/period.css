@@ -1,0 +1,23 @@
+.period {
+  width: 149px;
+  height: 100px;
+  flex:1;
+}
+
+.period__date {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.period__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.period__line {
+  width: 149px;
+  height: 1px;
+  background-color: #8A8888;
+}
