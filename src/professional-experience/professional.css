@@ -28,7 +28,6 @@
 .professional__column-right {
   flex-direction: column;
   align-items: flex-start;
-  background-color: red;
   display: flex;
 }
 
@@ -38,7 +37,6 @@
   background-color: black
 }
 
-.test {
-  flex: 1;
-  background-color: aqua;
+.professional__column__space {
+  margin-bottom: 200px;
 }

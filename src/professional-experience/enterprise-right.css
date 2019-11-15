@@ -1,15 +1,15 @@
-.enterprise-left {
+.enterprise-right {
   display: flex;
   flex-direction: column;
 }
 
-.enterprise-left__row {
+.enterprise-right__row {
   flex-direction: row;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
-.enterprise-left__description {
+.enterprise-right__description {
   background-color: #EFF5FF;
   width: 400px;
   justify-content: flex-start;
@@ -17,26 +17,25 @@
   padding: 10px;
 }
 
-.enterprise-left__icon {
+.enterprise-right__icon {
   width: 100px;
   height: 100px;
 }
 
-.enterprise-left__description__job {
+.enterprise-right__description__job {
   font-family: "Roboto";
   color: black;
   font-size: 12px; 
 }
 
-.enterprise-left__description__job__title {
+.enterprise-right__description__job__title {
   font-weight: bold;
   text-decoration: underline;
 }
 
-.enterprise-left__description__name {
+.enterprise-right__description__name {
   font-family: "Roboto";
   color: black;
   font-weight: bold;
   font-size: 14px; 
-  text-align: end;
 }

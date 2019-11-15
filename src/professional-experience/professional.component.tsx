@@ -1,9 +1,14 @@
 import * as React from 'react';
 import './professional.css'
 import EnterpriseLeftComponent from './enterprise-left.component';
-import certys_icon from '../resources/certsys.png';
+import EnterpriseRightComponent from './enterprise-right.component';
+import { Enterprise } from './../models/enterprise.model';
 
-export default class ProfessionalComponent extends React.Component<any, any> {
+interface ProfessionalComponentProps {
+  enterprise: Enterprise[];
+}
+
+export default class ProfessionalComponent extends React.Component<ProfessionalComponentProps, any> {
   constructor(props: any) {
     super(props);
   }
@@ -13,19 +18,35 @@ export default class ProfessionalComponent extends React.Component<any, any> {
       <div className='professional'>
         <div className='professional__row'>
           <div className='professional__column-left'>
-            <EnterpriseLeftComponent 
-              img={certys_icon}
-              name={'Certsys Tecnologia da Informação'}
-              job={[{title: 'BPM (Business Process Management):', description: ' Desenvolvimento de um sistema interno de contratação para a empresa utilizando a solução IBM Business Process Manager'}]}
-            />
+            {this.props.enterprise.map((enterprise, index) => {
+              if (index % 2 === 1) {
+                return (
+                  <EnterpriseLeftComponent
+                    img={enterprise.icon}
+                    name={enterprise.name}
+                    job={enterprise.job}
+                  />
+                )
+              }
+              return <div className='professional__column__space' key={enterprise.name}/>
+            })}
           </div>
           <div className='professional__column-center'>
-            <div className='professional__column-center__line'/>
+            <div className='professional__column-center__line' />
           </div>
           <div className='professional__column-right'>
-          <p className='test'>
-              column3
-            </p>
+            {this.props.enterprise.map((enterprise, index) => {
+              if (index % 2 === 0) {
+                return (
+                  <EnterpriseRightComponent
+                    img={enterprise.icon}
+                    name={enterprise.name}
+                    job={enterprise.job}
+                  />
+                )
+              }
+              return <div className='professional__column__space' key={enterprise.name}/>
+            })}
           </div>
         </div>
       </div>
