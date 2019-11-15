@@ -2,11 +2,11 @@ import * as React from 'react';
 import './header.css';
 import HeaderButtonComponent from './header-button.component';
 
-// interface HeaderComponentProps {
+interface HeaderComponentProps {
+  onClickButton: (ref: any) => void;
+}
 
-// }
-
-class HeaderComponent extends React.Component<any, any> {
+class HeaderComponent extends React.Component<HeaderComponentProps, any> {
   constructor(props: any) {
     super(props);
   }
@@ -14,12 +14,12 @@ class HeaderComponent extends React.Component<any, any> {
   public render() {
     return (
       <div className='header'>
-        <HeaderButtonComponent text='Home' />
-        <HeaderButtonComponent text='Quem Sou Eu?' />
-        <HeaderButtonComponent text='Objetivo Geral' />
-        <HeaderButtonComponent text='Formação Acadêmica' />
-        <HeaderButtonComponent text='Experiência Profissional' />
-        <HeaderButtonComponent text='Contato' />
+        <HeaderButtonComponent text='Home' onClickButton={this.props.onClickButton}/>
+        <HeaderButtonComponent text='Quem Sou Eu?' onClickButton={this.props.onClickButton}/>
+        <HeaderButtonComponent text='Objetivo Geral' onClickButton={this.props.onClickButton}/>
+        <HeaderButtonComponent text='Formação Acadêmica' onClickButton={this.props.onClickButton}/>
+        <HeaderButtonComponent text='Experiência Profissional' onClickButton={this.props.onClickButton}/>
+        <HeaderButtonComponent text='Contato' onClickButton={this.props.onClickButton}/>
       </div>
     )
   }
