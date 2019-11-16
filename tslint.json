@@ -8,11 +8,7 @@
     ]
   },
   "rules": {
-    "variable-name": [
-      false,
-      "ban-keywords",
-      "allow-leading-underscore"
-    ],
+    "variable-name": [false],
     "interface-name" : [true, "never-prefix"],
     "ordered-imports": [false],
     "object-literal-sort-keys": [false]
