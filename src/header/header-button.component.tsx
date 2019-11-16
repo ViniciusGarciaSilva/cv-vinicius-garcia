@@ -10,10 +10,14 @@ class HeaderButtonComponent extends React.Component<HeaderButtonComponentProps,a
   constructor(props: any) {
     super(props);
   }
+
+  public handlerOnButtonClick = () => {
+    return
+  }
   
   public render() {
     return (
-      <button className='header-button' >
+      <button className='header-button' onClick={this.handlerOnButtonClick}>
         <p className='header-button__text'>
           {this.props.text}
         </p>

@@ -14,7 +14,6 @@ class HeaderComponent extends React.Component<HeaderComponentProps, any> {
   public render() {
     return (
       <div className='header'>
-        <HeaderButtonComponent text='Home' onClickButton={this.props.onClickButton}/>
         <HeaderButtonComponent text='Quem Sou Eu?' onClickButton={this.props.onClickButton}/>
         <HeaderButtonComponent text='Objetivo Geral' onClickButton={this.props.onClickButton}/>
         <HeaderButtonComponent text='Formação Acadêmica' onClickButton={this.props.onClickButton}/>
